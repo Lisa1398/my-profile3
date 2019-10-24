@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Find Your Club</title>
+  	<meta name="description" content="Trouve ta salle de sport près de chez toi">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="header">
+  	  <p><a href="Espace Licencié">Espace Licencié</a></p>
+  	  <img src="images/login.png" alt="logopourentrersaphotodeprofil" height="44">
+  	</div>
+
+  	<h1>Find Your Club</h1>
+  	
+  	<div class="soustitre">
+  	  <p>Trouve le club de sport qui te correspond, près de chez toi.</p>
+  	</div>
+
+  	<div class="images">
+  	    <img src="images/photobasket.jpg" alt="photoennoiretblancdejoueursdebasketpendantunmatch" height="315">
+  	    <img src="images/photorugby.jpg" alt="photoennoiretblancdejoueursderugbypendantunmatch" height="315">
+  	    <img src="images/photoboxe.jpg" alt="photoennoiretblancdunjoueurdeboxe" height="315"><br>
+  	</div>
+
+  	<div class="fleche">
+  	    <img src="images/fleche.png" alt="flecherouge" height="50">
+  	</div> 
+  	 
+  	<div class="trouve">
+  	  <p><a href="#carte-de-france">Trouve ton club</a></p>
+  	</div>
+
+    <div class="planete">
+  	<img src="images/planete.png" alt="petitlogoduneplanete" height="50">
+  	<p>Sélectionne la zone de ton choix :</p>
+  	</div>
+
+  	<br>
+
+  	<div class="postal">
+  	<img src="images/location.png" alt="petitlogodunepositiongeographique" height="50">
+  	<p>Entre ton code postal :</p>
+    </div>
+
+    <div id="searchbar">
+               
+        <form action="" class="formulaire">
+        <input class="champ" type="text" value="..."/>
+                   
+                </form>
+                </div>
+
+    <div class="france" div id="carte-de-france">
+  	<a href="#onglet-criteres"><img src="images/cartefrance.png" alt="cartedelafrance" height="600"></a>
+  	</div>
+  
+
+    <div class="criteres" id="onglet-criteres">
+  	<p>Tes Critères :</p>
+  	<img src="images/loupe.png" alt="petitlogoduneloupe" height="50">
+  	<br>
+  	</div>
+
+
+    <div class="sport">
+  	<p>Sport :</p>
+  	<br>
+  	    <div id="bar">
+               
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Fais ton choix
+  </button>
+	  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+	    <a class="dropdown-item" href="#">-Basketball</a>
+	    <a class="dropdown-item" href="#">Rugby</a>
+	    <a class="dropdown-item" href="#">Football</a>
+	   	<a class="dropdown-item" href="#">Boxe</a>
+	    <a class="dropdown-item" href="#">Tennis</a>
+	    <a class="dropdown-item" href="#">Badminton</a>
+	  </div>
+	</div>
+
+
+        <form action="" class="formulaire">
+                   
+                </form>
+                </div>
+  	</div>
+
+  	<div class="categorie"> 
+  	<p>Catégorie  :</p>
+  	<br>
+  	<div id="bar-deux">
+
+  		<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Fais ton choix 
+  
+  </button>
+	  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+	    <a class="dropdown-item" href="#">Féminin</a>
+	    <a class="dropdown-item" href="#">Masculin</a>
+	    <a class="dropdown-item" href="#">Mixte</a>
+	  </div>
+	</div>
+               
+        <form action="" class="formulaire">
+        
+                   
+                </form>
+                </div>
+  
+  	</div>
+    
+    <div class="niveau">
+  	<p>Niveau :</p>
+  	<br>
+  	<div id="bar-trois">
+
+  	<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Fais ton choix
+  </button>
+	  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+	    <a class="dropdown-item" href="#">Loisir</a>
+	    <a class="dropdown-item" href="#">Intermédiaire</a>
+	    <a class="dropdown-item" href="#">Professionnel</a>
+	  </div>
+	</div>
+               
+        <form action="" class="formulaire">
+        
+                   
+                </form>
+                </div>
+  	</div>
+
+
+    <div class="region" id="ile-de-france">
+  	<img src="images/paris.png" alt="cartedeiledefrance" height="450">
+  	</div>
+
+
+
+ 
+
+
+
+
+
+
+  </body>
+
+
+</html> 

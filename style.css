@@ -1,0 +1,253 @@
+body {
+	background-color: rgba(34, 33, 33, 1);
+	color: rgba(236, 234, 234, 1);
+	font-family: 'Blinker', sans-serif;
+	font-size: 20px;
+	margin: 0px; 
+}
+
+.header p {
+	text-align: right;
+	width: 92%;
+
+
+}
+
+.header p a {
+	text-decoration: none;
+	color :rgba(236, 234, 234, 1);
+}
+
+.header {
+	background-color: rgba(134, 4, 4, 1);
+	padding: 4px 6px 6px 4px;
+	
+}
+
+.header img{
+	float :right;
+	position: absolute;
+	top: 7px;
+	right: 60px;
+}
+
+h1 {
+     text-align: center;
+     position: relative;
+     top: 20px;
+}
+
+.soustitre {
+	position: absolute;
+	top: 145px;
+	left: 40px;
+	
+}
+
+
+.images {
+	display: flex;
+	position: relative;
+	top: 95px;
+	right: 9px;
+	left: 9px;
+
+}
+
+.fleche img {
+	float: right; ;
+	position: relative;
+	top: 220px;
+	right: 340px;
+}
+
+.trouve p {
+	position: relative;
+	top: 230px;
+	text-align: right;
+	width: 90%;
+}
+
+.trouve p a {
+	color :rgba(236, 234, 234, 1);
+	text-decoration: none;
+	background-color: rgba(134, 4, 4, 1);
+	padding: 20px;
+	border: 3mm inset black;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.planete {
+	position: relative;
+	top: 380px;
+	left: 50px;
+}
+
+.planete p {
+	position: relative;
+	top: 14px;
+	left: 16px;
+}
+
+.planete img {
+	float: left;
+	top: 0px;
+	margin-left: 8px;
+
+}
+
+
+.france img {
+	position: relative;
+	top: 190px;
+	left: 600px;
+}
+
+.postal {
+	position: relative;
+	top: 640px;
+	left: 50px;
+}
+
+.postal p {
+	position: relative;
+	top: 16px;
+	left: 16px;
+
+}
+
+.postal img {
+	float: left;
+	top: 0px;
+	margin-left: 20px;
+
+}
+
+#searchbar {
+	position: relative;
+	top: 650px;
+	left: 50px;
+}
+
+
+.criteres {
+	position: relative;
+	top: 350px;
+	left: 70px;
+
+}
+
+.criteres p {
+	font-size: 25px;
+	position: relative;
+	top: 20px;
+	left: 80px;
+
+}
+
+.criteres img {
+	float: left;
+	margin-left: 20px;
+	position: relative;
+	bottom :35px;
+
+}
+
+.sport {
+	position: relative;
+	top: 450px;
+	
+}
+
+#bar {
+	position: relative;
+	bottom: 45px;
+	left: 60px;
+	z-index: 1;
+}
+
+.sport img{
+	position: relative;
+	bottom: 70px;
+	left: 70px;
+	z-index: 2;
+
+}
+
+.categorie {
+	position: relative;
+	top: 500px;
+	left: 70px;
+}
+
+#bar-deux {
+	position: relative;
+	bottom: 45px;
+	right: 7px;
+	z-index: 1;
+
+}
+
+.categorie img{
+	position: relative;
+	bottom: 70px;
+	left: 0px;
+	z-index: 2;
+
+}
+
+.niveau {
+	position: relative;
+	top :550px;
+	left: 70px;
+}
+
+#bar-trois{
+	position: relative;
+	bottom: 45px;
+	right: 7px;
+	z-index: 1;
+
+}
+
+.niveau img{
+	position: relative;
+	bottom: 70px;
+	left: 0px;
+	z-index: 2;
+
+}
+
+.region img {
+	position: relative;
+	top: 50px;
+	left: 710px;
+
+}
+
+.types-de-sport {
+	position: relative;
+	list-style-type: none;
+	top: 170px;
+	
+}
+
+.categories-sport {
+	position: relative;
+	top: 300px;
+	list-style-type: none;
+}
+
+.niveaux-sport {
+	position: relative;
+	top: 300px;
+	list-style-type: none;
+}
+
+.btn-secondary {
+color: white;
+background-color: white;
+border-radius:0px;
+}
+
